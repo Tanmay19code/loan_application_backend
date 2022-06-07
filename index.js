@@ -11,7 +11,7 @@ const PORT = 5000;
 
 const corsOptions = {
   // origin: "http://localhost:3000",
-  origin: "https://loan-application-project.herokuapp.com/",
+  origin: "https://bespoke-granita-549ed9.netlify.app/",
 };
 
 app.use(cors(corsOptions));
