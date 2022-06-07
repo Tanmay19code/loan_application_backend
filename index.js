@@ -10,7 +10,8 @@ const app = express();
 const PORT = 5000;
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  // origin: "http://localhost:3000",
+  origin: "https://loan-application-project.herokuapp.com/",
 };
 
 app.use(cors(corsOptions));
